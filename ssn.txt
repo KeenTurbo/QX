@@ -1,0 +1,17 @@
+
+trojan://shenmegui@jp.swiftfalcon.app:8460#JP -日本-01
+trojan://shenmegui@hk.swiftfalcon.app:28892#HK -香港-02
+trojan://shenmegui@us.swiftfalcon.app:8447#US -美国-03
+trojan://shenmegui@sg.swiftfalcon.app:8444#SG -新加坡-04
+
+trojan=hk-1.ac.laowanxiang.com:8443, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=香港 AC [01]
+
+trojan=120.233.29.202:558, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=韩国 Lite [02]
+
+trojan=120.233.29.201:458, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=日本 Lite [01]
+
+trojan=120.233.29.202:458, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=日本 Lite [02]
+
+trojan=120.233.29.201:358, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=新加坡 Lite [01]
+
+trojan=120.233.29.202:358, password=90025119474.wns.windows.com, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=新加坡 Lite [02]
