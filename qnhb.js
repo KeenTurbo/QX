@@ -5,11 +5,6 @@
 脚本功能：青柠海报设计+解锁VIP
 下载地址：http://mtw.so/6rCMaa
 软件版本：1.5.9
-脚本作者：彭于晏
-更新时间：2022-9-11
-问题反馈：QQ+89996462
-QQ会员群：779392027
-TG反馈群：https://t.me/plus8889
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 
@@ -38,7 +33,7 @@ if (url.indexOf(vip) != -1) {
     obj.result.isForeverVip = 1;
     obj.result.isVip = 1;
     obj.result.VipExpireTime = 8888888888000;
-obj.result.userName = "彭于晏解锁";
+obj.result.userName = "且以清欢度流年";
     obj.result.isTeamUserVip = 1;
 
 	body = JSON.stringify(obj);
