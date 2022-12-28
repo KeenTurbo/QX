@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ycdz/cubox.js
+^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/cubox.js
 
 [mitm] 
 
