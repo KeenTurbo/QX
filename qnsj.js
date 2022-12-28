@@ -12,7 +12,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/qnhb.js
+^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/qnsj.js
 
 [mitm] 
 
