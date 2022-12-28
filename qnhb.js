@@ -12,32 +12,4 @@
 
 [rewrite_local]
 
-^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qnhb.js
-
-[mitm] 
-
-hostname = api.qingning6.com
-
-
-*******************************/
-
-var body = $response.body;
-var url = $request.url;
-var obj = JSON.parse(body);
-
-const vip = '/getUserInfo';
-
-
-if (url.indexOf(vip) != -1) {
-    obj.result.hasPayVip = 1;
-    obj.result.isForeverVip = 1;
-    obj.result.isVip = 1;
-    obj.result.VipExpireTime = 8888888888000;
-obj.result.userName = "且以清欢度流年";
-    obj.result.isTeamUserVip = 1;
-
-	body = JSON.stringify(obj);
-}
-
-
-$done({body});
+^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/qnhb.js
