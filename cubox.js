@@ -27,7 +27,7 @@ const vip = '/userInfo';
 
 if (url.indexOf(vip) != -1) {
     obj.data.level = 1;
-    obj.data.expireTime = "9999-09-09T23:50:23+08:00";
+    obj.data.expireTime = "9999-12-31T23:50:23+08:00";
     obj.data.nickName = "且以清欢度流年";
     obj.data.thirdNickName = "且以清欢度流年";
     obj.data.isExpire = false;
