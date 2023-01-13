@@ -1,6 +1,5 @@
 [rewrite_local]
 ^https?:\/\/1959850262196600\.cn-hangzhou\.fc\.aliyuncs\.com\/2016-08-15\/proxy\/guide-hello_world\.current\/getUserInfov2\/ url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/PV.js
-
 [mitm]
 hostname = 1959850262196600.cn-hangzhou.fc.aliyuncs.com
 
