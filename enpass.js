@@ -4,7 +4,7 @@
 
 [rewrite_local]
 # Enpass Password Manager解锁订阅
-^https?:\/\/license\.enpass\.io\/api\/v1\/subscription\/me  url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/Crack/enpass.js
+^https?:\/\/license\.enpass\.io\/api\/v1\/subscription\/me  url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/enpass.js
 
 [mitm]
 hostname = license.enpass.io
