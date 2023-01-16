@@ -1,6 +1,6 @@
 /*
 脚本作者：Maasea
-引用地址：https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Enpass/enpass.js
+引用地址：https://raw.githubusercontent.com/jizhi0520/QX/main/enpass.js
 
 [rewrite_local]
 # Enpass Password Manager解锁订阅 //license.enpass.io
