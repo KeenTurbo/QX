@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.duitang\.com\/napi url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/tuitang.js
+^https:\/\/api\.duitang\.com\/napi url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/duitang.js
 
 [mitm] 
 
