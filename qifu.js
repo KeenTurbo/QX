@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/qifu.js
+https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/qifu.js
 
 [mitm] 
 
