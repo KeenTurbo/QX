@@ -11,7 +11,7 @@
 
 bbdc解锁Quantumult X配置
 [mitm]
-121.43.19.216, sapi.beingfine.cn
+hostname= 121.43.19.216, sapi.beingfine.cn
 
 [rewrite_local](注意路径）
 ^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch\/ url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/bbdc.js
