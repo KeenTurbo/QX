@@ -6,7 +6,7 @@
   "repo": "https://github.com/jizhi0520/QX",
   "apps": [
     {
-      "id": "Caiyun",
+      "id": "",
       "name": "彩云天气",
       "keys": [
         "@caiyun.token.caiyun",
