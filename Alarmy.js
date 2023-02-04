@@ -22,7 +22,7 @@ hostname = ars.alar.my
 
 [rewrite_local]
 
-^http[s]?:\/\/ars\.alar\.my\/api\/v2\/user\/sync url script-response-body Alarmy.js
+^http[s]?:\/\/ars\.alar\.my\/api\/v2\/user\/sync url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/Alarmy.js
 
 ***************************************/
 
