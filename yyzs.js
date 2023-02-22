@@ -7,23 +7,16 @@
 > 更新時間：2022-07-24
 > 特别說明：本腳本僅供學習交流使用，禁止轉載售賣
  
-重写添加 
-
-Url   ^https://newdrugs.dxy.cn 
-类型   script-response-body 
-脚本   *****.js
-
-（js脚本放在手机本地圈x目录下的Scripts目录里面   文件重命名英文字母）
 
 [rewrite_local]
-^https://newdrugs.dxy.cn script-response-body
+
+^https://newdrugs.dxy.cn script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/yyzs.js
 
 [mitm] 
 
 hostname=newdrugs.dxy.cn
 
-***********************************/
-
+*******************************/
 
 
 
