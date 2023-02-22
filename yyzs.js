@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https://newdrugs.dxy.cn script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/yyzs.js
+^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/yyzs.js
 
 [mitm] 
 
