@@ -15,7 +15,8 @@ Url   ^https://newdrugs.dxy.cn
 
 （js脚本放在手机本地圈x目录下的Scripts目录里面   文件重命名英文字母）
 
-
+[rewrite_local]
+^https://newdrugs.dxy.cn script-response-body
 
 [mitm] 
 
