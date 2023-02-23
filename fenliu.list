@@ -183,17 +183,6 @@ HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 host, grpc.biliapi.net, reject
 
 
-# >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
-
-# > dingdachuxing
-host-keyword, image.bianxianmao.com, reject
-
-# > douyin
-host-keyword,bds.snssdk.com, reject
-host-keyword,p6-ad-sign.byteimg.com, reject
-host-keyword,p3.pstatp.com, reject
-
-
 # >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
 
 # > google
@@ -416,18 +405,6 @@ HOST,pgdt.ugdtimg.com, reject
 HOST,splashqqlive.gtimg.com, reject
 HOST,vv.video.qq.com, reject
 HOST,wa.gtimg.com, reject
-# HOST,wxsnsdy.wxs.qq.com, reject
-# HOST,wxsnsdythumb.wxs.qq.com, reject
-
-# > tencent video
-host-suffix, tetrack.qq.com, reject
-host-suffix, tpns.tencent.com, reject
-host-suffix, api.poll.video.qq.com, reject
-host-suffix, static-res.qq.com, reject
-host-suffix, stat.tpns.tencent.com, reject
-host, h.trace.qq.com, reject
-host-keyword, omgmta.qq.com, reject
-host-keyword, omgmta1.qq.com, reject
 
 # > tencent music
 HOST,adserviceretry.kugou.com, reject
