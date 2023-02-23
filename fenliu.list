@@ -182,6 +182,7 @@ HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 # > bilibili Proto
 host, grpc.biliapi.net, reject
 
+
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
 
 # > dingdachuxing
@@ -442,26 +443,12 @@ HOST,rich.kuwo.cn, reject
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 
-# > xiaohongshu
-HOST,ads-img-qc.xhscdn.com, reject
-HOST,ads-video-al.xhscdn.com, reject
-HOST,ads-video-qc.xhscdn.com, reject
-HOST,t-ads.xiaohongshu.com, reject
-
 # > xiaomi
 HOST,data.mistat.xiaomi.com, reject
 HOST,tracking.intl.miui.com, reject
 
 
 # >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
-
-# > yunshangu
-HOST, ads.95516.com, reject
-HOST, cm-10-138.getui.com, reject
-HOST, sdk.open.talk.getui.net, reject
-HOST, sdk-conf.getui.com, reject
-HOST, switch.cup.com.cn, reject
-HOST, tysdk.95516.com, reject
 
 
 # >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
