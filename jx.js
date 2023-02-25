@@ -21,16 +21,5 @@ hostname=api.tipsoon.com
 
 
 
-if (!$response.body) $done({});
-const url = $request.url;
-let obj = JSON.parse($response.body);
-
-// 简讯
-if (url.includes("/api/v1/user/info")) {
-  let obj = JSON.parse(body);
-  obj.data.is_vip = true;
-  obj.data.vip_expire_time = "2040-01-01 23:59:59";
-  body = JSON.stringify(obj);
-}
-
-$done({ body });
+re('is_vip":false@expire_time":"\\d{4}','is_vip":true@expire_time":"2029')
+function re(){var e=$response.body;if(arguments[0].includes("@")){var n=arguments[0].split("@"),r=arguments[1].split("@");for(i=0;i<n.length;i++)var l=new RegExp(n[i],"g"),e=e.replace(l,r[i])}else{l=new RegExp(arguments[0],"g");e=e.replace(l,arguments[1])}$done(e)}
