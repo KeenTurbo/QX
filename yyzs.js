@@ -23,14 +23,11 @@ var url = $request['url'];
 var obj = JSON['parse'](body);
 var sj = '2099-07-30 23:50:35';
 var bz = '9999999999999';
-var ll = '瞅啥瞅';
 var qm = 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg10.360buyimg.com%2Fn0%2Fjfs%2Ft1%2F66253%2F38%2F12315%2F158714%2F5d9caed4Ef32b47b9%2F33d8d07a8489788a.jpg&refer=http%3A%2F%2Fimg10.360buyimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661201310&t=651564aec8b189f326a483d97de6af5b';
 const vip = '/app/user/init';
 const viq = '/app/user/pro/stat';
 const mz = '/app/user';
 if (url['indexOf'](mz) != -1) {
-    obj['data']['username'] = ll;
-    obj['data']['nickname'] = ll;
     obj['data']['avatar'] = qm;
 };
 if (url['indexOf'](vip) != -1) {
