@@ -19,10 +19,10 @@ hostname=newdrugs.dxy.cn
 *******************************/
 
 
-var body = $response.body.replace(/false/g, "true");
-var body = $response.body;
-var url = $request.url;
-var obj = JSON.parse(body);
+var body = $response["body"]["replace"](/false/g, "ture");
+var body = $response["body"];
+var url = $request["url"];
+var obj = JSON["parse"](body);
 var sj = "2099-07-30 23:50:35;";
 var bz = "9999999999999";
 var ll = "豆豆";
@@ -30,47 +30,42 @@ var qm = "https://cdn.dribbble.com/users/3972215/screenshots/14522042/media/7a72
 const vip = "/app/user/init";
 const viq = "/app/user/pro/stat";
 const mz = "/app/user";
-
-if (url.indexOf(mz) != -1) {
-obj.data.username = ll;
-obj.data.nickname = ll;
-obj.data.avatar = qm;
-body = JSON.stringify(obj);
-}
-
-if (url.indexOf(vip) != -1) {
-obj.data.expiredDay = 999999;
-obj.data.newMessage = true;
-obj.data.isProActive = true;
-obj.data.subscribe = true;
-obj.data.userProStatStatusEnum = "VALID";
-obj.data.expireDate = sj;
-obj.data.expiredTime = sj;
-obj.data.userProInfoVO.subscribeExpiresDate = sj;
-obj.data.userProInfoVO.expiredDay = 999;
-obj.data.userProInfoVO.placeholderVip = sj;
-obj.data.userProInfoVO.activeType = "svip";
-console.log("xqk", JSON.stringify(obj));
-body = JSON.stringify(obj);
-}
-
-if (url.indexOf(viq) != -1) {
-obj.data.userProInfoVO.placeholderVip = sj;
-obj.data.userProInfoVO.userProStatStatusEnum = "VALID";
-obj.data.userProInfoVO.subscribe = true;
-obj.data.userProInfoVO.expiredDay = 999999;
-obj.data.newMessage = true;
-obj.data.isProActive = true;
-obj.data.subscribeExpiresDate = sj;
-obj.data.expireDate = sj;
-obj.data.userProInfoVO.expiredTime = bz;
-obj.data.svipUserProInfo.expiredTime = "2099-04-12 16:14:16";
-obj.data.svipUserProInfo.expiredDay = "9999999";
-obj.data.svipUserProInfo.subscribe = true;
-obj.data.remainExpiredDay = "9999999";
-obj.data.svipUserProInfo.appendDays = "9999999";
-obj.data.svipUserProInfo.placeholderVip = true;
-body = JSON.stringify(obj);
-}
-
-$done({body});
+if (url["indexOf"](mz) != -1) {
+    obj["data"]["username"] = ll;
+    obj["data"]["nickname"] = ll;
+    obj["data"]["avatar"] = qm;
+    body = JSON["stringify"](obj)
+};
+if (url["indexOf"](vip) != -1) {
+    obj["data"]["expiredDay"] = 999999;
+    obj["data"]["newMessage"] = true;
+    obj["data"]["isProActive"] = true;
+    obj["data"]["subscribe"] = true;
+    obj["data"]["userProStatStatusEnum"] = "VALID";
+    obj["data"]["expireDate"] = sj;
+    obj["data"]["expiredTime"] = sj;
+    obj["data"]["userProInfoVO"]["expiredTime"] = sj;
+    obj["data"]["userProInfoVO"]["expiredDay"] = 999;
+    obj["data"]["userProInfoVO"]["subscribeExpiresDate"] = sj;
+    obj["data"]["userProInfoVO"]["placeholderVip"] = true;
+    obj["false"] = true;
+    body = JSON["stringify"](obj)
+};
+if (url["indexOf"](viq) != -1) {
+    obj["data"]["userProStatStatusEnum"] = "VALID";
+    obj["data"]["activeType"] = 3;
+    obj["data"]["userProInfoVO"]["placeholderVip"] = true;
+    obj["data"]["expiredDay"] = 999999;
+    obj["false"] = true;
+    obj["data"]["expireDate"] = sj;
+    obj["data"]["expiredTime"] = sj;
+    obj["data"]["userProInfoVO"]["expiredTime"] = sj;
+    obj["data"]["userProInfoVO"]["expiredDay"] = bz;
+    obj["data"]["svipUserProInfo"]["expiredDay"] = bz;
+    obj["data"]["userProInfoVO"]["subscribeExpiresDate"] = sj;
+    obj["data"]["userProInfoVO"]["activeType"] = 2;
+    obj["data"]["svipUserProInfo"]["placeholderVip"] = true;
+    obj["data"]["svipUserProInfo"]["activeType"] = 2;
+    body = JSON["stringify"](obj)
+};
+$done({body});;;
