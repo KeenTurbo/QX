@@ -12,7 +12,7 @@
 [rewrite_local]
   
 # ～ 简讯解锁会员权限
-^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/JianXunProCrack.js
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/jx.js
 
 
 [mitm] 
