@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/dida365\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ddqd.js
+^https:\/\/dida365\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ddqd.js
 
 [mitm] 
 
