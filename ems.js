@@ -1,3 +1,3 @@
 let obj=JSON.parse($response.body);
-delete obj.info.moduleJson;
+obj.info.moduleJson.replace(/\\/g, '');;
 $done({body: JSON.stringify(obj)});
