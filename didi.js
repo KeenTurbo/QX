@@ -1,7 +1,2 @@
 let obj=JSON.parse($response.body);
-obj.data.sections.forEach((item) => {
-  if (!(item.sectionId==="center_v2"  item.sectionId==="head_v2"  item.sectionId==="member" || item.sectionId==="core_function")){
-  delete item;
-  }
-});
-$done({body: JSON.stringify(obj)});
+body.data.sections = body.data.sections.filter(item => ["center_v2", "head_v2", "member", "core_function"].includes(item.sectionId));$done({body: JSON.stringify(obj)});
