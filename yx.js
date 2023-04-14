@@ -1,3 +1,3 @@
 let obj=JSON.parse($response.body);
-obj.data.topFunctionalArea.splice(4);
+obj.data.topFunctionalArea.splice(5);
 $done({body: JSON.stringify(obj)});
