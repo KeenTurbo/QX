@@ -1,4 +1,3 @@
-let body=$response.body;
-body=body.replace(/\\/g, '');
-let obj=JSON.parse(body);
+let obj = JSON.parse($response.body);
+obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !item.moduleName.includes("广告")));
 $done({body: JSON.stringify(obj)});
