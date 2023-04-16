@@ -1,3 +1,3 @@
 let obj=JSON.parse($response.body);
-delete obj.INDEX_TOP_BANNER.contents[1].bubble ;
+delete obj.INDEX_TOP_BANNER ;
 $done({body: JSON.stringify(obj)});
