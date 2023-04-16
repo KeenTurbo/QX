@@ -1,3 +1,3 @@
 let obj=JSON.parse($response.body);
-obj.data.show_style =0 ;
+delete obj.data ;
 $done({body: JSON.stringify(obj)});
