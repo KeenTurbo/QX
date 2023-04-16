@@ -1,5 +1,5 @@
 let obj=JSON.parse($response.body);
-delete obj.data.contents.bubble ;
-delete obj.data.contents.figure ;
-delete
+obj.data.INDEX_TOP_BANNER.contents.forEach((item) => {
+  delete item.bubble; 
+});
 $done({body: JSON.stringify(obj)});
