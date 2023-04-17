@@ -1,4 +1,5 @@
 let obj=JSON.parse($response.body);
+delete obj.data.homeNewsAdv.jumpValue ;
 delete obj.data.homeDineInAdv ;
 delete obj.data.homePickupAdv ;
 delete obj.data.nearbyShopInfo ;
