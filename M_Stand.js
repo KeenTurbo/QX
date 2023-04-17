@@ -3,6 +3,7 @@ delete obj.data.homeDineInAdv ;
 delete obj.data.homePickupAdv ;
 delete obj.data.nearbyShopInfo ;
 delete obj.data.homeEventThemesAdv ;
+delete obj.data.homeBannerAdv ;
 delete obj.data.homeCouponAdv ;
 delete obj.data.homeCompanyAdv ;
 delete obj.data.homeDeliveryAdv ;
