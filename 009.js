@@ -4,5 +4,6 @@ delete obj.data.homePickupAdv ;
 delete obj.data.nearbyShopInfo ;
 delete obj.data.homeEventThemesAdv ;
 delete obj.data.homeCouponAdv ;
+delete obj.data.homeCompanyAdv ;
 delete obj.data.homeDeliveryAdv ;
 $done({body: JSON.stringify(obj)});
