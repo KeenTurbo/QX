@@ -5,6 +5,7 @@ delete obj.data.nearbyShopInfo ;
 delete obj.data.homeEventThemesAdv ;
 delete obj.data.eventThemes ;
 delete obj.data.homeRootAdv ;
+delete obj.data.homeTopAdv ;
 delete obj.data.homeDialogAdv ;
 delete obj.data.homeBannerAdv ;
 delete obj.data.homeCouponAdv ;
