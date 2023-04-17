@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https?:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/LINLEE.js
+^https?:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/LINLEE.js
 
 [mitm]
 hostname = webapi.qmai.cn
