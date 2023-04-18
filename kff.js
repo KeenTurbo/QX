@@ -7,7 +7,7 @@ obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !ite
 obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !item.id.includes("874197b4-fe93-4a80-a555-8df1bc7e8211")));
 obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !item.id.includes("0ba6a615-b7e9-48aa-afe7-329635385f2c")));
 obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !item.id.includes("a11b0e7d-a162-4802-ac71-21d98e8adddf")));
-obj.data?.config?.icon?.props?.forEach(item => {
+obj.data?.config?.props?.forEach(item => {
   item.img = "https://raw.githubusercontent.com/jizhi0520/QX/main/cyys1.jpg";
 });
 $done({body: JSON.stringify(obj)});
