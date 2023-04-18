@@ -8,7 +8,7 @@ obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !ite
 obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !item.id.includes("0ba6a615-b7e9-48aa-afe7-329635385f2c")));
 obj.data.config = JSON.stringify(JSON.parse(obj.data.config).filter(item => !item.id.includes("a11b0e7d-a162-4802-ac71-21d98e8adddf")));
 
-obj.data.config.forEach(item => {
+obj.data.config.imgs.forEach(item => {
  item.img="https://raw.githubusercontent.com/jizhi0520/QX/main/jizhi.jpg";;
 });
 
