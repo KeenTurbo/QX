@@ -1,4 +1,5 @@
 let obj=JSON.parse($response.body);
+delete obj.data.imgUrl ;
 delete obj.data.homeCommunityEntryBg ;
 delete obj.data.inviteActivityLandingGoodImg ;
 delete obj.data.defaultPosterPic ;
