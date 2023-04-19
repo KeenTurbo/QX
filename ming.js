@@ -1,3 +1,3 @@
 let obj=JSON.parse($response.body);
-obj.data.center=[];
+obj.data=[];
 $done({body: JSON.stringify(obj)});
