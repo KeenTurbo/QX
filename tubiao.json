@@ -2,7 +2,7 @@
 "name":"图标", 
 "description":"by doudou", 
 "icons":
-    [
+	{"name":"AcEmby", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/AcEmby.png"},
         {"name":"Misty", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Misty.png"},
         {"name":"BlueSea", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/BlueSea.png"},
 	{"name":"JuDog", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/JuDog.png"},
