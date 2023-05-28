@@ -42,4 +42,4 @@ obj.licenses.forEach((license) => {
 
 let modifiedJsonString = JSON.stringify(obj);
 
-$done({ body: modifiedJsonString });
+$done({ body: modifiedJsonString, log: false });
