@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main//iTranslate.js
+https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main//iTranslate1.js
 
 [mitm] 
 
