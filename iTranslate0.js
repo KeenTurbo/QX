@@ -15,7 +15,31 @@ hostname = ssl-api.itranslateapp.com
 
 *******************************/
 
-let obj = 
-{"licenses":[{"bundle_id":"com.outerspaceapps.itranslate","expires_date_ms":253402271999000,"is_trial_period":true,"original_transaction_id":"160000714859958","product_id":"com.itranslate.pro.monthly","transaction_id":"160000714859958"},{"bundle_id":"com.outerspaceapps.itranslate","expires_date_ms":253402271999000,"is_trial_period":true,"original_transaction_id":"160000714859958","product_id":"com.itranslate.pro.monthly","transaction_id":"160000714859958"}]}
-}
-$done({body: JSON.stringify(obj)});
+let obj = {
+  "licenses": [
+    {
+      "bundle_id": "com.outerspaceapps.itranslate",
+      "expires_date_ms": 32493834549000,
+      "is_trial_period": true,
+      "original_transaction_id": "160000714859958",
+      "product_id": "com.itranslate.pro.monthly",
+      "transaction_id": "160000714859958"
+    },
+    {
+      "bundle_id": "com.outerspaceapps.itranslate",
+      "expires_date_ms": 32493834549000,
+      "is_trial_period": true,
+      "original_transaction_id": "160000714859958",
+      "product_id": "com.itranslate.pro.monthly",
+      "transaction_id": "160000714859958"
+    }
+  ]
+};
+
+obj.licenses.forEach((license) => {
+  license.expires_date_ms = 9999 * 365 * 24 * 60 * 60 * 1000;
+});
+
+let modifiedJsonString = JSON.stringify(obj);
+
+$done({ body: modifiedJsonString });
