@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https://(ssl|p.*)-(api|buy).(itranslateapp|itunes.apple).com/(accounts|WebObjects)/(v4|MZFinance.woa)/(subscriptions|wa)/(verify/ios|inAppRegrantPurchaseHistory).*$ url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/iTranslate.js
+^https://(ssl|p.*)-(api|buy).(itranslateapp|itunes.apple).com/(accounts|WebObjects)/(v4|MZFinance.woa)/(subscriptions|wa)/(verify/ios|inAppRegrantPurchaseHistory).*$ url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/iTranslate2.js
 
 [mitm]
 
