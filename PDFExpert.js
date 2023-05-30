@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/(check|refresh) url script-request-body https://raw.githubusercontent.com/jizhi0520/QX/main/PDFExpert.js
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/jizhi0520/QX/main/PDFExpert.js
 
 [mitm] 
 
