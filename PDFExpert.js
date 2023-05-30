@@ -19,10 +19,6 @@ hostname = license.pdfexpert.com
 *******************************/
 
 
-
-
-
-
 var doudou = JSON.parse($request.body);
 
 doudou = {
