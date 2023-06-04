@@ -5,7 +5,7 @@
 
 [rewrite_local]
 # > 旅途随身听 解锁内购
-^https:\/\/www\.1314zhilv\.com\/ltsstnew\/user\/getInfo url script-response-body https://raw.githubusercontent.com/KeenTurbo/QX/main/ltsst.js
+^^https:\/\/www\.1314zhilv\.com\/ltsstnew\/user\/getInfo url script-response-body https://raw.githubusercontent.com/KeenTurbo/QX/main/ltsst.js
 
 
 [mitm] 
